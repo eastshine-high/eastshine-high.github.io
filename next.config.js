@@ -68,14 +68,7 @@ module.exports = () => {
     images: {
       domains: ['picsum.photos'],
     },
-    async headers() {
-      return [
-        {
-          source: '/(.*)',
-          headers: securityHeaders,
-        },
-      ]
-    },
+    output: 'export',
     webpack: (config, options) => {
       config.module.rules.push({
         test: /\.svg$/,

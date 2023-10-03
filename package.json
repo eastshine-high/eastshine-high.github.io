@@ -1,7 +1,8 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
+  "name": "eastshine-high.github.io",
   "version": "2.0.2",
   "private": true,
+  "homepage": "https://eastshine-high.github.io/",
   "scripts": {
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
